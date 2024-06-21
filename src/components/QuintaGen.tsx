@@ -39,7 +39,7 @@ const QuintaGen = () => {
         <div>
             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/International_Pok%C3%A9mon_logo.svg/800px-International_Pok%C3%A9mon_logo.svg.png" alt="" />
             <h5>Lista de Pokémon</h5>
-            <p className="textito">Pokémons de la primer generación</p>
+            <p className="textito">Pokémons de la quinta generación</p>
             <table className="table">
                 <thead>
                     <tr>
