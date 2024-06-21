@@ -68,9 +68,9 @@ const PrimeraParte = () => {
                 </tbody>
             </table>
 
-            <Modal isOpen={modalIsOpen} onRequestClose={() => setModalIsOpen(false)} contentLabel="Detalles del Pokémon xddddd" ariaHideApp={false} > 
+            <Modal isOpen={modalIsOpen} onRequestClose={() => setModalIsOpen(false)} contentLabel="Detalles del Pokémon xddddd" ariaHideApp={false}   > 
 
-                {selectedPokemon && (
+                {selectedPokemon && (  //se renderiza el modal siempre y cuando selectedPokemon no sea NULL
                     <div className="detalles_modal">
                         <h2 className="modal_poke_title">{selectedPokemon.name}</h2>
                         <img
@@ -82,6 +82,7 @@ const PrimeraParte = () => {
                         <p className="p_modal">ID: {selectedPokemon.id}</p>
                         <p className="p_modal">Altura: {selectedPokemon.height / 10} m</p>
                         <p className="p_modal">Peso: {selectedPokemon.weight / 10} kg</p>
+                        <p className="p_modal">Movimientos:</p>
                         <p className="p_modal">Tipos: {selectedPokemon.types.map((type: any) => type.type.name).join(', ')}</p>
                         <p className="p_modal">Movimientos: <br /><br /> {selectedPokemon.moves.map((move: any) => move.move.name).join(', ')}</p>
                         <button className="botoncillo_modal" onClick={() => setModalIsOpen(false)}>Cerrar</button>

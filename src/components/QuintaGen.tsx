@@ -51,7 +51,7 @@ const QuintaGen = () => {
                 <tbody>
                     {data.map((pokemon, index) => (
                         <tr key={index}>
-                            <td>{index + 1}</td>
+                            <td>{index + 494}</td>
                             <td>{pokemon.name}</td>
                             <td>
                                 <img

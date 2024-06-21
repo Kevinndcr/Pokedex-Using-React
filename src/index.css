@@ -67,9 +67,6 @@ p {
 .ReactModal__Overlay {
   background-color: rgba(3, 3, 3, 0.341) !important;
   backdrop-filter: blur(20px); /* Aplica el efecto borroso */
-  border: 3px solid #655dff;
-  
-
 }
 
 .ReactModal__Content {
@@ -88,5 +85,3 @@ p {
   color: white;
 }
 
-.p_modal {
-}

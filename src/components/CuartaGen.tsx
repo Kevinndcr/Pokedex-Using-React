@@ -51,7 +51,7 @@ const CuartaGen = () => {
                 <tbody>
                     {data.map((pokemon, index) => (
                         <tr key={index}>
-                            <td>{index + 1}</td>
+                            <td>{index + 387}</td>
                             <td>{pokemon.name}</td>
                             <td>
                                 <img
