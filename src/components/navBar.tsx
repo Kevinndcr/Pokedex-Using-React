@@ -1,4 +1,4 @@
-    import React from 'react';
+	    import React from 'react';
 		import {Link} from 'react-router-dom';
 		import logo from '../logo.svg';
 
@@ -21,6 +21,12 @@
 							</li>
 							<li className="nav-item">
 								<Link to="/QuintaGen" className="nav-link">Generacion 5</Link>
+							</li>
+							<li className="nav-item">
+								<Link to="/VisualizarTrainers" className="nav-link">Visualizar Entrenadores</Link>
+							</li>
+							<li className="nav-item">
+								<Link to="/VisualizarEquipos" className="nav-link">Visualizar Equipos</Link>
 							</li>
 							
 						</ul>

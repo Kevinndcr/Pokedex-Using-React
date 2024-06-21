@@ -9,6 +9,8 @@ import SegundaGen from './components/SegundaGen';
 import TerceraGen from './components/TerceraGen';
 import CuartaGen from './components/CuartaGen';
 import QuintaGen from './components/QuintaGen';
+import VisualizarTrainers from './components/VisualizarTrainers';
+import VisualizarEquipos from './components/VisualizarEquipos';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -23,6 +25,8 @@ root.render(
         <Route path='/TerceraGen' element={<TerceraGen />} />
         <Route path='/CuartaGen' element={<CuartaGen />} />
         <Route path='/QuintaGen' element={<QuintaGen />} />
+        <Route path='/VisualizarTrainers' element={<VisualizarTrainers />} />
+        <Route path='/VisualizarEquipos' element={<VisualizarEquipos />} />
 
 
       </Routes>
